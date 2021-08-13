@@ -5,7 +5,7 @@ using MongoDB.Driver;
 
 namespace FAK.Mongo.API.Services
 {
-    public class BookService
+    public class BookService : IBookService
     {
         private readonly IMongoCollection<Book> _books;
 
@@ -17,5 +17,11 @@ namespace FAK.Mongo.API.Services
         }
 
         public List<Book> Get() => _books.Find(b => true).ToList();
+
+        public Book GetById(string id)
+        {
+            var filter = Builders<Book>.Filter.Eq(b => b.Id, id);
+            return _books.Find(filter).FirstOrDefault();
+        }
     }
 }

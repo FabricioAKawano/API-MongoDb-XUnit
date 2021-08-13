@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FAK.Mongo.API", "FAK.Mongo.API\FAK.Mongo.API.csproj", "{FC468CC0-EB99-4AAD-9E8E-338F6089A01A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FAK.Mongo.API", "FAK.Mongo.API\FAK.Mongo.API.csproj", "{FC468CC0-EB99-4AAD-9E8E-338F6089A01A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FAK.Mongo.Tests", "FAK.Mongo.Tests\FAK.Mongo.Tests.csproj", "{7D082688-0D7D-4CE2-BB90-D552B1CEFACE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{FC468CC0-EB99-4AAD-9E8E-338F6089A01A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC468CC0-EB99-4AAD-9E8E-338F6089A01A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC468CC0-EB99-4AAD-9E8E-338F6089A01A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D082688-0D7D-4CE2-BB90-D552B1CEFACE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D082688-0D7D-4CE2-BB90-D552B1CEFACE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D082688-0D7D-4CE2-BB90-D552B1CEFACE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D082688-0D7D-4CE2-BB90-D552B1CEFACE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
